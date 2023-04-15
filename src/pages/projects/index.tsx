@@ -36,7 +36,7 @@ const Projects = () => {
                     bodyStyle={{ fontSize: '1rem' }}
                 >
                     <Meta
-                        title={<Title level={4}>Zia-App</Title>}
+                        title={<Title level={4}>Zia-Apps</Title>}
                         description="This web app is designed for financial purposes and has been developed using the Django, Next.js, and Ant Design."
                     />
                 </Card>
