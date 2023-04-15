@@ -7,10 +7,13 @@
     justify-content: center;
 
     .card {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         margin: 1.5rem 2rem;
+        transition: box-shadow 0.3s ease-in-out;
     }
 
     .card:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         cursor: default;
     }
 

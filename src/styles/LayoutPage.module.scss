@@ -18,5 +18,15 @@
 
 .footer {
     background-color: $white;
-    margin-top: 20rem;
+    margin-top: 15rem;
+}
+
+@media screen and (max-width: 576px) {
+
+    .header,
+    .content,
+    .footer {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
