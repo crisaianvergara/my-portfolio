@@ -35,7 +35,7 @@ const items: MenuProps['items'] = [
     },
     {
         label: (
-            <Link className={styles.navLink} href="/files/resume.pdf">
+            <Link className={styles.navLink} href="/files/resume.pdf"  target="_blank" rel="noopener noreferrer">
                 03 : Resume
             </Link>
         ),
