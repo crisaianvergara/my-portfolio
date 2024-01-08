@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import { useEffect, useState } from 'react';
 
-import { Button, Divider, Drawer, Menu } from 'antd';
+import { Button, Divider, Drawer, Menu, Spin } from 'antd';
 import type { MenuProps } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
 
@@ -45,6 +45,8 @@ const items: MenuProps['items'] = [
 
 const PageHeader: React.FC = () => {
     const [open, setOpen] = useState(false);
+    const [loading, setLoading] = useState(true); // New loading state
+
 
     const showDrawer = () => {
         setOpen(true);
@@ -65,12 +67,26 @@ const PageHeader: React.FC = () => {
             setOpen(false);
         };
 
+        // Simulating loading delay for the header
+        const delay = setTimeout(() => {
+            setLoading(false); // Set loading to false after the delay (simulated header load)
+        }, 50); // Simulated delay time (you can adjust this)
+
         window.addEventListener('resize', handleResize);
 
         return () => {
             window.removeEventListener('resize', handleResize);
+            clearTimeout(delay); // Clear the timeout on unmount (cleanup)
         };
     }, []);
+
+    if (loading) {
+        return (
+            <center>
+                <Spin size='large' />
+            </center>
+        );
+    }
 
     return (
         <div className={styles.container}>

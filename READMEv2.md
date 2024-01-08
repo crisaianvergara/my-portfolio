@@ -9,5 +9,8 @@ Others:
 sudo rm -r node_modules/
 - remove node_modules
 
+- sudo npm install
+- sudo run dev
+
 
 
