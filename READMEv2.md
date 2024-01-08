@@ -1,15 +1,9 @@
 Base on Documentation:
 - sudo docker build -t nextjs-docker .
-- sudo docker build -t nextjs-docker .
-- sudo docker build -t nextjs-docker .
 - sudo docker run -p 3000:3000 nextjs-docker
-
-- sudo docker build -t my-portfolio .
-- sudo docker run -p 3000:3000 my-portfolio
-
-- sudo docker run -d -p 3000:3000 --log-driver=none my-portfolio
-- sudo docker stop magical_maxwell
-- sudo docker start magical_maxwell
+- sudo docker run -d -p 3000:3000 --log-driver=none nextjs-docker
+- sudo docker stop <docker_container_name>
+- sudo docker start <docker_container_name>
 
 Others:
 sudo rm -r node_modules/
