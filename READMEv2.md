@@ -10,7 +10,7 @@ sudo rm -r node_modules/
 - remove node_modules
 
 - sudo npm install
-- sudo run dev
+- sudo npm run dev
 
 sudo docker build -t my-portfolio:latest .
 sudo docker run -d -p 3000:3000 --log-driver=none my-portfolio

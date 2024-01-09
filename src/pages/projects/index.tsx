@@ -111,7 +111,7 @@ const Projects = () => {
                             />
                         }
                         actions={[
-                            <><Link href="https://kriskap.onrender.com/" target='_blank'><EyeOutlined key="kriskap-url" /></Link></>,
+                            <><Link href="https://kriskap.crisaianvergara.com/home" target='_blank'><EyeOutlined key="kriskap-url" /></Link></>,
                             <><Link href="https://github.com/crisaianvergara/kriskap" target='_blank' ><GithubOutlined key="kriskap-github" /></Link></>,
                             // <><Button type="link"><DeleteOutlined key="setting" /></Button></>,
                         ]}
@@ -141,14 +141,14 @@ const Projects = () => {
                             />
                         }
                         actions={[
-                            <><Link href="https://sulat-aian.onrender.com/" target='_blank' ><EyeOutlined key="sulat-url" /></Link></>,
+                            <><Link href="https://sulataian.crisaianvergara.com/" target='_blank' ><EyeOutlined key="sulat-url" /></Link></>,
                             <><Link href="https://github.com/crisaianvergara/sulat-aian" target='_blank' ><GithubOutlined key="sulat-github" /></Link></>,
                             // <><Button type="link"><DeleteOutlined key="setting" /></Button></>,
                         ]}
                         bodyStyle={{ fontSize: '1rem' }}
                     >
                         <Meta
-                            title={<Title level={4}>Sulat-Aian</Title>}
+                            title={<Title level={4}>Sulat Aian</Title>}
                             description="This is a tech blog web application built using the Flask framework in Python and CSS Bootstrap 5."
                         />
                         <Space size={[0, 2]} wrap style={{ paddingTop: '1rem' }}>
