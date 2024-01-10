@@ -18,7 +18,7 @@ export default function Home() {
                 <h3>
                     <Typewriter
                         options={{
-                            strings: ['Software Engineer!', 'Day Trader!', 'Farmer!'],
+                            strings: ['Software Engineer!', 'Farmer!', 'Day Trader!'],
                             autoStart: true,
                             loop: true,
                         }}

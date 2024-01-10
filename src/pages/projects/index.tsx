@@ -53,7 +53,7 @@ const Projects = () => {
                             />
                         }
                         actions={[
-                            <><Link href="https://app.crisaianvergara.com/web/login" target='_blank'><EyeOutlined key="zia-url" /></Link></>,
+                            <><Link href="https://app.crisaianvergara.com/" target='_blank'><EyeOutlined key="zia-url" /></Link></>,
                             <><Link href="https://github.com/crisaianvergara/pyver" target='_blank' ><GithubOutlined key="farm-github" /></Link></>,
                             // <><Button type="link"><DeleteOutlined key="setting" /></Button></>,
                         ]}
@@ -111,7 +111,7 @@ const Projects = () => {
                             />
                         }
                         actions={[
-                            <><Link href="https://kriskap.crisaianvergara.com/home" target='_blank'><EyeOutlined key="kriskap-url" /></Link></>,
+                            <><Link href="https://kriskap.crisaianvergara.com/" target='_blank'><EyeOutlined key="kriskap-url" /></Link></>,
                             <><Link href="https://github.com/crisaianvergara/kriskap" target='_blank' ><GithubOutlined key="kriskap-github" /></Link></>,
                             // <><Button type="link"><DeleteOutlined key="setting" /></Button></>,
                         ]}
